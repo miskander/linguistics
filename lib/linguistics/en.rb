@@ -1366,7 +1366,7 @@ module Linguistics::EN
 
 	### Transform the given +number+ into an ordinate word.
 	def ordinate( number )
-		numwords( number ).ordinal
+		numwords( number.en.ordinal )
 	end
 
 
